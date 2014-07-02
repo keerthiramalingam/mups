@@ -1,5 +1,61 @@
 {
-  "title": "Press Space or double-click to edit",
+  "title": "EC2",
   "id": 1,
-  "formatVersion": 2
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "AMI",
+      "id": 22,
+      "ideas": {
+        "1": {
+          "title": "ec2",
+          "ideas": {
+            "1": {
+              "title": "ami",
+              "ideas": {
+                "1": {
+                  "title": "launch types",
+                  "ideas": {
+                    "1": {
+                      "title": "explicit",
+                      "id": 55
+                    },
+                    "2": {
+                      "title": "implicit",
+                      "id": 56
+                    },
+                    "3": {
+                      "title": "public",
+                      "id": 57
+                    }
+                  },
+                  "id": 54
+                },
+                "2": {
+                  "title": "storage",
+                  "ideas": {
+                    "1": {
+                      "title": "ebs",
+                      "id": 59
+                    },
+                    "2": {
+                      "title": "ec2 store backed",
+                      "ideas": {},
+                      "id": 60
+                    }
+                  },
+                  "id": 58
+                }
+              },
+              "id": 53
+            }
+          },
+          "id": 52,
+          "attr": {
+            "style": {}
+          }
+        }
+      }
+    }
+  }
 }
