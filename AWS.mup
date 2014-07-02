@@ -1,0 +1,164 @@
+{
+  "title": "AWS",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "s3",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "Buckets",
+          "id": 3,
+          "ideas": {
+            "1": {
+              "title": "Bucket Policies",
+              "id": 14,
+              "ideas": {}
+            },
+            "2": {
+              "title": "User Policies/ACLS",
+              "id": 16
+            }
+          }
+        },
+        "2": {
+          "title": "Objects",
+          "id": 4,
+          "ideas": {
+            "1": {
+              "title": "US standard region",
+              "id": 8,
+              "ideas": {
+                "1": {
+                  "title": "eventual consistency ",
+                  "id": 10
+                }
+              }
+            },
+            "2": {
+              "title": "all other regions",
+              "id": 9,
+              "ideas": {
+                "1": {
+                  "title": "readAfterWrite - PUTS requests",
+                  "id": 11
+                },
+                "2": {
+                  "title": "eventual -  overwrite PUTS and DELETES",
+                  "id": 12
+                }
+              }
+            },
+            "3": {
+              "title": "No Object locking",
+              "id": 13
+            },
+            "4": {
+              "title": "Subresources",
+              "id": 19,
+              "ideas": {
+                "1": {
+                  "title": "ACL",
+                  "id": 21
+                },
+                "2": {
+                  "title": "Torrent",
+                  "id": 22
+                }
+              }
+            },
+            "5": {
+              "title": "Lifecycle Management",
+              "id": 23,
+              "ideas": {
+                "1": {
+                  "title": "transistion \nMove to Glacier",
+                  "id": 24
+                },
+                "2": {
+                  "title": "expiration\n- delete",
+                  "id": 25
+                }
+              }
+            }
+          }
+        },
+        "3": {
+          "title": "Keys",
+          "id": 5,
+          "ideas": {
+            "1": {
+              "title": "Randomize for performance",
+              "id": 18
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "title": "EBS",
+      "id": 36,
+      "ideas": {
+        "1": {
+          "title": "SSD",
+          "id": 37
+        },
+        "2": {
+          "title": "Provisioned IOPS",
+          "id": 38
+        },
+        "3": {
+          "title": "Magnetic",
+          "id": 39
+        }
+      }
+    },
+    "-1": {
+      "title": "ec2",
+      "id": 26,
+      "ideas": {
+        "1": {
+          "title": "ami",
+          "id": 27,
+          "ideas": {
+            "1": {
+              "title": "launch types",
+              "id": 28,
+              "ideas": {
+                "1": {
+                  "title": "explicit",
+                  "id": 29
+                },
+                "2": {
+                  "title": "implicit",
+                  "id": 30
+                },
+                "3": {
+                  "title": "public",
+                  "id": 31
+                }
+              }
+            },
+            "2": {
+              "title": "storage",
+              "id": 32,
+              "ideas": {
+                "1": {
+                  "title": "ebs",
+                  "id": 33
+                },
+                "2": {
+                  "title": "ec2 store backed",
+                  "id": 35,
+                  "ideas": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "links": []
+}
